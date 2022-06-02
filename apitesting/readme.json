@@ -1,1 +1,14 @@
-{"industry":["retail"],"tags":["tag1","tag2"],"author":"RajeshProd","services":["hee"],"demoName":"apitesting"}
+{
+    "industry": [
+        "retail"
+    ],
+    "tags": [
+        "tag1",
+        "tag2"
+    ],
+    "author": "RajeshProd",
+    "services": [
+        "hee"
+    ],
+    "demoName": "apitesting"
+}
