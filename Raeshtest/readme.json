@@ -11,5 +11,6 @@
     "services": [
         "cde"
     ],
-    "demoName": "Raeshtest"
+    "demoName": "Raeshtest",
+    "displayName":"Rajesh Test"
 }
