@@ -1,5 +1,5 @@
 {
-    "industry": [
+    "industries": [
         "transportation"
     ],
     "tags": [
@@ -10,5 +10,5 @@
         "cognos_analytics"
     ],
     "demoName": "stagetest1",
-    "displayName":"stage test 1"
+    "displayName": "stage test 1"
 }

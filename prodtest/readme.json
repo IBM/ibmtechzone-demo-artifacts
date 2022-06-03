@@ -1,5 +1,5 @@
 {
-    "industry": [
+    "industries": [
         "hospitality"
     ],
     "tags": [
@@ -12,5 +12,5 @@
         "spss"
     ],
     "demoName": "prodtest",
-    "displayName":"prodtest"
+    "displayName": "prodtest"
 }

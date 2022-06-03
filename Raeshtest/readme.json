@@ -1,5 +1,5 @@
 {
-    "industry": [
+    "industries": [
         "software"
     ],
     "tags": [
@@ -12,5 +12,5 @@
         "cde"
     ],
     "demoName": "Raeshtest",
-    "displayName":"Rajesh Test"
+    "displayName": "Rajesh Test"
 }
