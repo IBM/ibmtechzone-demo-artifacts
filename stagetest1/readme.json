@@ -9,5 +9,6 @@
     "services": [
         "cognos_analytics"
     ],
-    "demoName": "stagetest1"
+    "demoName": "stagetest1",
+    "displayName":"stage test 1"
 }
