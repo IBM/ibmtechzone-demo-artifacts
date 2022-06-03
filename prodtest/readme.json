@@ -11,5 +11,6 @@
         "watson_assistant",
         "spss"
     ],
-    "demoName": "prodtest"
+    "demoName": "prodtest",
+    "displayName":"prodtest"
 }
