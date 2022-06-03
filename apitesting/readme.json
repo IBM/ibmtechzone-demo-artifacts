@@ -1,5 +1,5 @@
 {
-    "industry": [
+    "industries": [
         "retail"
     ],
     "tags": [
@@ -11,5 +11,5 @@
         "hee"
     ],
     "demoName": "apitesting",
-    "displayName":"Rajesh apitesting"
+    "displayName": "Rajesh apitesting"
 }

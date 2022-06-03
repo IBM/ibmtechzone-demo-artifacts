@@ -1,1 +1,21 @@
-{"industries":["hospitality"],"tags":["ai","ml","nlu"],"author":"Amol Deshpande","services":["analyticsengine","bigsql","cde","cognos_analytics","cpd_platform"],"demoName":"amol.deshpande-sandboxdemo10","displayName":"sandbox demo 10","desc":"Returns the message Count"}
+{
+    "industries": [
+        "hospitality"
+    ],
+    "tags": [
+        "ai",
+        "ml",
+        "nlu"
+    ],
+    "author": "Amol Deshpande",
+    "services": [
+        "analyticsengine",
+        "bigsql",
+        "cde",
+        "cognos_analytics",
+        "cpd_platform"
+    ],
+    "demoName": "amol.deshpande-sandboxdemo10",
+    "displayName": "sandbox demo 10",
+    "desc": "Returns the message Count"
+}
