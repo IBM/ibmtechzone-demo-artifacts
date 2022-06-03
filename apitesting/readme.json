@@ -10,5 +10,6 @@
     "services": [
         "hee"
     ],
-    "demoName": "apitesting"
+    "demoName": "apitesting",
+    "displayName":"Rajesh apitesting"
 }
