@@ -1,1 +1,23 @@
-{"industries":["retail"],"tags":["ai","ml","nlu","nlp"],"author":"Amol Deshpande","services":["analyticsengine","bigsql","cde","cognos_analytics","cpd_platform","cpfs"],"demoName":"AmolDeshpande-sandboxtestdemo","displayName":"sandbox test demo","desc":"This is the first Demo for cp4d"}
+{
+    "industry": [
+        "retail"
+    ],
+    "tags": [
+        "ai",
+        "ml",
+        "nlu",
+        "nlp"
+    ],
+    "author": "Amol Deshpande",
+    "services": [
+        "analyticsengine",
+        "bigsql",
+        "cde",
+        "cognos_analytics",
+        "cpd_platform",
+        "cpfs"
+    ],
+    "demoName": "AmolDeshpande-sandboxtestdemo",
+    "displayName": "sandbox test demo",
+    "desc": "This is the first Demo for cp4d"
+}
