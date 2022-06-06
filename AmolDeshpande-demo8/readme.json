@@ -14,7 +14,7 @@
         "bigsql",
         "cde"
     ],
-    "demoName": "demo8",
-    "desc": "Returns the message Count",
-    "displayName": "demo8"
+    "demoName": "Employee attrition",
+    "desc": "Employee attrition",
+    "displayName": "Employee attrition"
 }
