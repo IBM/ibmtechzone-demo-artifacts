@@ -1,1 +1,14 @@
-{"industry":"industry","tags":"tag1","author":"Stage","services":"service1","demoname":"stagetest1"}
+{
+    "industries": [
+        "transportation"
+    ],
+    "tags": [
+        "tag1"
+    ],
+    "author": "Stage",
+    "services": [
+        "cognos_analytics"
+    ],
+    "demoName": "stagetest1",
+    "displayName": "stage test 1"
+}
