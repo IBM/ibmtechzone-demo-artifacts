@@ -1,1 +1,16 @@
-{"industry":"indistry1","tags":"tag1,tag2","author":"RajeshProd","services":"service1","demoname":"prodtest"}
+{
+    "industries": [
+        "hospitality"
+    ],
+    "tags": [
+        "tag1",
+        "tag2"
+    ],
+    "author": "RajeshProd",
+    "services": [
+        "watson_assistant",
+        "spss"
+    ],
+    "demoName": "prodtest",
+    "displayName": "prodtest"
+}
