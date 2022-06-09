@@ -1,1 +1,18 @@
-{"industries":["other"],"tags":["datastage","address","avi"],"author":"Mark Hickok","services":["datastage_ent_plus","wkc"],"demoName":"WKC-Multicloud","desc":"Address verification","displayName":"WKC Multicloud"}
+{
+    "industries": [
+        "other"
+    ],
+    "tags": [
+        "datastage",
+        "address",
+        "avi"
+    ],
+    "author": "Mark Hickok",
+    "services": [
+        "datastage_ent_plus",
+        "wkc"
+    ],
+    "demoName": "WKC-Multicloud",
+    "desc": "Address verification",
+    "displayName": "WKC Multicloud"
+}
