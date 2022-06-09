@@ -1,1 +1,17 @@
-{"industries":["banking"],"tags":["datastage"," datafabric"],"author":"Stephanie Valarezo","services":["wkc","datastage_ent"],"demoName":"DataStage Demonstration Mongo DB2 Postgres","desc":"Ready to demo DataStage flow which shows Transformer Filter Join"}
+{
+    "industries": [
+        "banking"
+    ],
+    "tags": [
+        "datastage",
+        " datafabric"
+    ],
+    "author": "Stephanie Valarezo",
+    "services": [
+        "wkc",
+        "datastage_ent"
+    ],
+    "demoName": "DataStage Demonstration Mongo DB2 Postgres",
+    "displayName": "DataStage Demonstration Mongo DB2 Postgres",
+    "desc": "Ready to demo DataStage flow which shows Transformer Filter Join"
+}
