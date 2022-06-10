@@ -11,7 +11,7 @@
         "wkc",
         "datastage_ent"
     ],
-    "demoName": "DataStage Demonstration Mongo DB2 Postgres",
+    "demoName": "StephanieValarezo-DataStageDemonstrationMongoDB2Postgres",
     "displayName": "DataStage Demonstration Mongo DB2 Postgres",
     "desc": "Ready to demo DataStage flow which shows Transformer Filter Join"
 }
