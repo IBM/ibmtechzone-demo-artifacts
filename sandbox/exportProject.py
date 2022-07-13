@@ -35,12 +35,12 @@ CPD_USER_NAME =  config('WKCUSER')
 CPD_USER_PASSWORD =  config('PASSWORD')
 CPD_URL = "https://"+config('TZHOSTNAME')
 
-version_r = os.popen('cpdctl version').read()
+version_r = os.popen('./cpdctl version').read()
 
 CPDCTL_VERSION = version_r
 CPDCTL_VERSION=CPDCTL_VERSION.strip()
 
-print("cpdctl version: {}".format(CPDCTL_VERSION))
+print("./cpdctl version: {}".format(CPDCTL_VERSION))
 
 
 # ### Add CPD profile and context configuration
@@ -49,7 +49,7 @@ print("cpdctl version: {}".format(CPDCTL_VERSION))
 
 # In[6]:
 
-os.system('cpdctl config user set cpd_user --username '+CPD_USER_NAME+ ' --password '+CPD_USER_PASSWORD)
+os.system('./cpdctl config user set cpd_user --username '+CPD_USER_NAME+ ' --password '+CPD_USER_PASSWORD)
 
 
 # Add "cpd" profile to the `cpdctl` configuration
@@ -57,7 +57,7 @@ os.system('cpdctl config user set cpd_user --username '+CPD_USER_NAME+ ' --passw
 # In[7]:
 
 
-os.system('cpdctl config profile set cpd --url ' +CPD_URL+' --user cpd_user')
+os.system('./cpdctl config profile set cpd --url ' +CPD_URL+' --user cpd_user')
 
 
 # Add "cpd" context to the `cpdctl` configuration
@@ -65,20 +65,20 @@ os.system('cpdctl config profile set cpd --url ' +CPD_URL+' --user cpd_user')
 # In[8]:
 
 
-os.system('cpdctl config context set cpd --profile cpd --user cpd_user')
+os.system('./cpdctl config context set cpd --profile cpd --user cpd_user')
 
 
 # List available contexts
 
 # In[9]:
 
-os.system('cpdctl config context list')
+os.system('./cpdctl config context list')
 
 
 # In[10]:
 
 
-os.system('cpdctl config context use cpd')
+os.system('./cpdctl config context use cpd')
 
 
 # List available projects in current context
@@ -108,7 +108,7 @@ def existing_projects(options, service_info):
 # In[12]:
 options = []
 service_info = {}
-data = json.loads(os.popen("cpdctl project list --output json").read())
+data = json.loads(os.popen("./cpdctl project list --output json").read())
 
 entries=data['total_results']
 # print(data)
@@ -130,7 +130,7 @@ if(PROJECT_ID==0):
 # In[13]:
 
 PROJECT_ID=PROJECT_ID.strip()
-os.system(' cpdctl project get --project-id '+PROJECT_ID)
+os.system(' ./cpdctl project get --project-id '+PROJECT_ID)
 
 
 # Get project details in JSON format and extract it's name
@@ -138,13 +138,13 @@ os.system(' cpdctl project get --project-id '+PROJECT_ID)
 # In[14]:
 
 
-os.system(' cpdctl project get --project-id '+PROJECT_ID+' --output json')
+os.system(' ./cpdctl project get --project-id '+PROJECT_ID+' --output json')
 
 
 # In[15]:
 
 
-result = os.popen('cpdctl project get --project-id '+PROJECT_ID+' --output json --jmes-query "entity.name" --raw-output').read()
+result = os.popen('./cpdctl project get --project-id '+PROJECT_ID+' --output json --jmes-query "entity.name" --raw-output').read()
 PROJECT_NAME = result
 print("{}project ID is: {}".format(PROJECT_NAME, PROJECT_ID))
 
@@ -153,7 +153,7 @@ EXPORT = {
 }
 EXPORT_JSON = json.dumps(EXPORT)
 print(EXPORT_JSON)
-result = os.popen('cpdctl asset export start --project-id '+PROJECT_ID+ ' --assets \''+EXPORT_JSON+'\' --name demo-project-assets --output json --jmes-query "metadata.id" --raw-output').read()
+result = os.popen('./cpdctl asset export start --project-id '+PROJECT_ID+ ' --assets \''+EXPORT_JSON+'\' --name demo-project-assets --output json --jmes-query "metadata.id" --raw-output').read()
 EXPORT_ID = result
 print('Export ID: {}'.format(EXPORT_ID))
 EXPORT_ID=EXPORT_ID.strip()
