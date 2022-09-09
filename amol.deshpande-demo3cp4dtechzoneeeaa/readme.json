@@ -1,1 +1,22 @@
-{"industries":["insurance"],"tags":["ai","ml","nlu","nlp"],"author":"Amol Deshpande","services":["bigsql","cde","analyticsengine"],"demoName":"amol.deshpande-demo3cp4dtechzoneeeaa","displayName":"demo3 cp4d techzoneeeaa","desc":"This is the first Demo for cp4d"}
+{
+    "industries": [
+        "insurance"
+    ],
+    "tags": [
+        "ai",
+        "ml",
+        "nlu",
+        "nlp"
+    ],
+    "author": "Amol Deshpande",
+    "services": [
+        "bigsql",
+        "cde",
+        "analyticsengine"
+    ],
+    "demoName": "amol.deshpande-demo3cp4dtechzoneeeaa",
+    "displayName": "demo3 cp4d techzoneeeaa",
+    "desc": "This is the first Demo for cp4d",
+    "isPrivate": true,
+    "privateGitRepoUrl": "https://ibm.com"
+}
