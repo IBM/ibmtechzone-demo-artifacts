@@ -1,1 +1,1 @@
-{"industries":["healthcare"],"tags":["ai","ml","nlu","nlp"],"author":"Amol Deshpande","services":["bigsql","analyticsengine"],"demoName":"amol.deshpande-cp4dtechzonetestdemo","displayName":"cp4d techzone test demo","desc":"This is the first Demo for cp4d"}
+{"industries":["healthcare"],"tags":["ai","ml","nlu","nlp"],"author":"Amol Deshpande","services":["bigsql","analyticsengine"],"demoName":"amol.deshpande-cp4dtechzonetestdemo","displayName":"cp4d techzone test demo","desc":"This is the first Demo for cp4d","isPrivate": true,"privateGitRepoUrl": "https://ibm.com"}
