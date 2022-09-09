@@ -1,18 +1,1 @@
-{
-    "industries": [
-        "utilities"
-    ],
-    "tags": [
-        "agriculture"
-    ],
-    "author": "Girish Padmanabhan",
-    "services": [
-        "analyticsengine",
-        "cpd_platform"
-    ],
-    "demoName": "pgirish-AgroCropPrediction",
-    "displayName": "Agro Crop Prediction",
-    "desc": "Crop Prediction",
-    "isPrivate": true,
-    "privateGitRepoUrl": "https://ibm.com"
-}
+{"industries":["utilities"],"tags":["agriculture"],"author":"Girish Padmanabhan","services":["analyticsengine","cpd_platform"],"demoName":"pgirish-AgroCropPrediction","displayName":"Agro Crop Prediction","desc":"Crop Predictiojn","isPrivate": true, "privateGitRepoUrl": "https://ibm.com"}
