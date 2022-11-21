@@ -1,0 +1,111 @@
+{
+    "results": [
+        {
+            "group_id": 10001,
+            "name": "Test Group",
+            "description": "This is a test group",
+            "created_by": "admin",
+            "created_at": "2022-11-21T08:39:49.329Z",
+            "updated_at": "2022-11-21T08:39:49.329Z",
+            "misc": {
+                "isDynamicGroup": false
+            },
+            "permissions": [
+                "access_catalog",
+                "create_project",
+                "create_space",
+                "view_governance_artifacts",
+                "author_governance_artifacts",
+                "can_provision",
+                "view_quality",
+                "manage_metadata_import",
+                "manage_discovery",
+                "manage_quality"
+            ],
+            "roles": [
+                {
+                    "role_id": "wkc_data_scientist_role",
+                    "role_name": "Data Scientist"
+                },
+                {
+                    "role_id": "zen_data_engineer_role",
+                    "role_name": "Data Engineer"
+                },
+                {
+                    "role_id": "zen_developer_role",
+                    "role_name": "Developer"
+                }
+            ],
+            "members_count": "1"
+        },
+        {
+            "group_id": 10002,
+            "name": "Test Group 2",
+            "description": "Test group with all users",
+            "created_by": "admin",
+            "created_at": "2022-11-21T08:40:25.700Z",
+            "updated_at": "2022-11-21T08:40:25.700Z",
+            "misc": {
+                "isDynamicGroup": false
+            },
+            "permissions": [
+                "sign_in_only",
+                "create_project",
+                "create_space"
+            ],
+            "roles": [
+                {
+                    "role_id": "zen_user_role",
+                    "role_name": "User"
+                }
+            ],
+            "members_count": "2"
+        },
+        {
+            "group_id": 10003,
+            "name": "Test Group 3",
+            "description": "Test group with no users",
+            "created_by": "admin",
+            "created_at": "2022-11-21T08:40:53.239Z",
+            "updated_at": "2022-11-21T08:40:53.239Z",
+            "misc": {
+                "isDynamicGroup": false
+            },
+            "permissions": [
+                "create_project",
+                "access_catalog",
+                "view_quality",
+                "create_space",
+                "manage_metadata_import",
+                "manage_discovery",
+                "manage_quality",
+                "view_governance_artifacts",
+                "author_governance_artifacts"
+            ],
+            "roles": [
+                {
+                    "role_id": "wkc_business_analyst_role",
+                    "role_name": "Business Analyst"
+                },
+                {
+                    "role_id": "wkc_data_quality_analyst_role",
+                    "role_name": "Data Quality Analyst"
+                }
+            ],
+            "members_count": "0"
+        },
+        {
+            "group_id": 10000,
+            "name": "All users",
+            "description": "All users are implicitly part of this group",
+            "created_by": "",
+            "created_at": "",
+            "updated_at": "",
+            "roles": [],
+            "misc": {},
+            "members_count": "2"
+        }
+    ],
+    "_messageCode_": "success",
+    "message": "success"
+}
