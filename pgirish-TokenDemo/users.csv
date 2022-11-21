@@ -1,0 +1,4 @@
+username,password,email,displayName,user_roles
+admin,,--,admin,zen_administrator_role;zen_developer_role;wkc_data_scientist_role;zen_data_engineer_role;wkc_data_steward_role;wkc_business_analyst_role;wkc_data_quality_analyst_role;6af5c69f-dfa4-4fcc-9848-dd79db0738dd;wkc_reporting_administrator;zen_user_role;3f59432b-919b-4349-a6f9-84924cbfc082
+mhickok,,mhickok@us.ibm.com,Mark Hickok,3f59432b-919b-4349-a6f9-84924cbfc082;zen_administrator_role
+pgirish,password,pgirish@in.ibm.com,GIRISH Padmanabhan,3f59432b-919b-4349-a6f9-84924cbfc082;zen_administrator_role
