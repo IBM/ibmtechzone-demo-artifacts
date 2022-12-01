@@ -1,0 +1,223 @@
+{
+    "rows": [
+        {
+            "id": "zen_administrator_role",
+            "key": "zen_administrator_role",
+            "doc": {
+                "_id": "zen_administrator_role",
+                "extension_id": "_me_775225283331457026",
+                "extension_name": "zen_administrator_role",
+                "role_name": "Administrator",
+                "description": "Administrator role",
+                "permissions": [
+                    "administrator",
+                    "can_provision",
+                    "manage_catalog",
+                    "create_project",
+                    "create_space",
+                    "author_governance_artifacts",
+                    "manage_governance_workflow",
+                    "view_governance_artifacts",
+                    "manage_categories",
+                    "manage_glossary",
+                    "manage_quality",
+                    "manage_discovery",
+                    "manage_metadata_import"
+                ],
+                "updated_at": 1669888306819
+            }
+        },
+        {
+            "id": "zen_user_role",
+            "key": "zen_user_role",
+            "doc": {
+                "_id": "zen_user_role",
+                "extension_id": "_me_775225283443490818",
+                "extension_name": "zen_user_role",
+                "role_name": "User",
+                "description": "Default role for users with limited permissions on the platform",
+                "permissions": [
+                    "sign_in_only",
+                    "create_project",
+                    "create_space"
+                ],
+                "updated_at": 1669888324175
+            }
+        },
+        {
+            "id": "wkc_data_scientist_role",
+            "key": "wkc_data_scientist_role",
+            "doc": {
+                "_id": "wkc_data_scientist_role",
+                "extension_id": "_me_775237443525869570",
+                "extension_name": "wkc_data_scientist_role",
+                "role_name": "Data Scientist",
+                "description": "Data scientist role",
+                "permissions": [
+                    "access_catalog",
+                    "create_project",
+                    "create_space",
+                    "view_governance_artifacts"
+                ],
+                "updated_at": 1669888332525
+            }
+        },
+        {
+            "id": "zen_developer_role",
+            "key": "zen_developer_role",
+            "doc": {
+                "_id": "zen_developer_role",
+                "extension_id": "_me_775237443988520962",
+                "extension_name": "zen_developer_role",
+                "role_name": "Developer",
+                "description": "Developer role",
+                "permissions": [
+                    "access_catalog",
+                    "can_provision",
+                    "create_project",
+                    "create_space"
+                ],
+                "updated_at": 1669888336452
+            }
+        },
+        {
+            "id": "wkc_business_analyst_role",
+            "key": "wkc_business_analyst_role",
+            "doc": {
+                "_id": "wkc_business_analyst_role",
+                "extension_id": "_me_775239428291264515",
+                "extension_name": "wkc_business_analyst_role",
+                "role_name": "Business Analyst",
+                "description": "Business analyst role",
+                "permissions": [
+                    "create_project",
+                    "access_catalog",
+                    "view_quality",
+                    "create_space"
+                ],
+                "updated_at": 1669888016772
+            }
+        },
+        {
+            "id": "zen_data_engineer_role",
+            "key": "zen_data_engineer_role",
+            "doc": {
+                "_id": "zen_data_engineer_role",
+                "extension_id": "_me_775239428539973635",
+                "extension_name": "zen_data_engineer_role",
+                "role_name": "Data Engineer",
+                "description": "Data engineer role",
+                "permissions": [
+                    "create_project",
+                    "author_governance_artifacts",
+                    "view_governance_artifacts",
+                    "can_provision",
+                    "access_catalog",
+                    "view_quality",
+                    "manage_metadata_import",
+                    "manage_discovery",
+                    "manage_quality",
+                    "create_space"
+                ],
+                "updated_at": 1669888018337
+            }
+        },
+        {
+            "id": "wkc_data_quality_analyst_role",
+            "key": "wkc_data_quality_analyst_role",
+            "doc": {
+                "_id": "wkc_data_quality_analyst_role",
+                "extension_id": "_me_775239428890296322",
+                "extension_name": "wkc_data_quality_analyst_role",
+                "role_name": "Data Quality Analyst",
+                "description": "Data quality analyst role",
+                "permissions": [
+                    "create_project",
+                    "manage_metadata_import",
+                    "manage_discovery",
+                    "manage_quality",
+                    "view_governance_artifacts",
+                    "author_governance_artifacts",
+                    "access_catalog",
+                    "create_space"
+                ],
+                "updated_at": 1669888020827
+            }
+        },
+        {
+            "id": "wkc_data_steward_role",
+            "key": "wkc_data_steward_role",
+            "doc": {
+                "_id": "wkc_data_steward_role",
+                "extension_id": "_me_775239429734137858",
+                "extension_name": "wkc_data_steward_role",
+                "role_name": "Data Steward",
+                "description": "Data steward role",
+                "permissions": [
+                    "create_project",
+                    "author_governance_artifacts",
+                    "view_governance_artifacts",
+                    "access_catalog",
+                    "manage_metadata_import",
+                    "manage_discovery",
+                    "view_quality",
+                    "create_space"
+                ],
+                "updated_at": 1669888022893
+            }
+        },
+        {
+            "id": "wkc_reporting_administrator",
+            "key": "wkc_reporting_administrator",
+            "doc": {
+                "_id": "wkc_reporting_administrator",
+                "extension_id": "_ie_775327152177577985",
+                "extension_name": "wkc_reporting_administrator",
+                "role_name": "Reporting Administrator",
+                "description": "Role for managing reports on Watson Knowledge Catalog Data.",
+                "permissions": [
+                    "manage_reporting",
+                    "monitor_project"
+                ],
+                "updated_at": 1669886282380
+            }
+        },
+        {
+            "id": "db6f9aff-10c3-4a2c-8985-856de138ba5a",
+            "key": "db6f9aff-10c3-4a2c-8985-856de138ba5a",
+            "doc": {
+                "_id": "db6f9aff-10c3-4a2c-8985-856de138ba5a",
+                "extension_id": "_ce_818612609172471811",
+                "extension_name": "db6f9aff-10c3-4a2c-8985-856de138ba5a",
+                "role_name": "test-role",
+                "description": "",
+                "permissions": [
+                    "access_advanced_governance_capabilities",
+                    "view_quality",
+                    "create_project",
+                    "access_information_assets"
+                ],
+                "updated_at": 1669891142540
+            }
+        },
+        {
+            "id": "cf907f72-1394-4edb-8b68-e6d37a835a9a",
+            "key": "cf907f72-1394-4edb-8b68-e6d37a835a9a",
+            "doc": {
+                "_id": "cf907f72-1394-4edb-8b68-e6d37a835a9a",
+                "extension_id": "_ce_818613161738600449",
+                "extension_name": "cf907f72-1394-4edb-8b68-e6d37a835a9a",
+                "role_name": "unassigned-role",
+                "description": "this is an unassigned-role",
+                "permissions": [
+                    "administrator",
+                    "manage_discovery",
+                    "access_information_assets"
+                ],
+                "updated_at": 1669891311170
+            }
+        }
+    ],
+    "_messageCode_": "success",
+    "message": "success"
+}
