@@ -1,0 +1,1 @@
+{"industries":["banking"],"tags":["lineage"],"author":"wknupp","services":["analyticsengine","datarefinery","datastage_ent_plus","wkc","zen"],"demoName":"wknupp-linsandbox","displayName":"linsandbox","desc":"lineage sandbox","isPrivate":true,"version":2,"privateGitRepoUrl":"https://github.com/wknupp/linsandbox"}
